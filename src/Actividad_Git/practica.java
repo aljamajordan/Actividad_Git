@@ -9,11 +9,17 @@ public class practica {
 		int[] prodArray = {6, 8, 20, 23, 12};
 		
 		// User 1 fer la suma dels elements de sumArray
-		
+			
 		
 		
 		// User 2 fer la resta dels elements de subArray
 		
+		int resta = 0
+			for (int i = 0; i < subArray.length; i++){
+			resta-=subArray[i];
+			}
+				
+		System.out.println("La resta es: " + resta);
 		
 		
 		// User 3 fer la multiplicació dels elements de prodArray
